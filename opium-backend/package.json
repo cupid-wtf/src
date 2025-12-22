@@ -1,0 +1,29 @@
+{
+  "name": "opium-backend",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/html": "^1.2.0",
+    "@elysiajs/jwt": "^1.2.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/mailgun-js": "^0.22.18",
+    "bcryptjs": "^2.4.3",
+    "elysia": "latest",
+    "elysia-ip": "^1.0.8",
+    "jose": "^5.10.0",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^8.10.1",
+    "toml": "^3.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typed-html": "^3.0.1"
+  },
+  "module": "src/index.js"
+}
