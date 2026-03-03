@@ -1,0 +1,33 @@
+[server]
+port = 8000
+profile = "development" # stable | development
+
+[database]
+connection = "mongodb://localhost:27017/"
+database = "opium"
+
+[lumi]
+accesskey = "lumiadmin"
+
+[cloudflare.s3]
+access_key_id = ""
+secret_access_key = ""
+account_id = ""
+bucket_name = "opium"
+
+[discord]
+client_id = ""
+client_secret = ""
+
+[cloudflare.turnstile]
+public_site_key = ""
+secret_key = ""
+
+[mailgun]
+api_key = ""
+domain = ""
+
+[jwt]
+signing_key = ""
+
+[smtp] #future mail server
