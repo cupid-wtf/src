@@ -1,0 +1,45 @@
+@import url('./chillax.css');
+@import url('./sora.css');
+
+body, html {
+    overflow:hidden;
+    background-color: black;
+}
+
+main {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-color: black;
+}
+.user-profile-card {
+    background-color: var(--box-color);
+    backdrop-filter: blur(var(--blur-amount));
+    width: 100%;
+    max-width: var(--max-width);
+    border: var(--border-width) solid var(--border-color);
+}
+.text-glow {
+    text-shadow: 
+        0 0 8px var(--text-color),
+        0 0 15px var(--text-color),
+        0 0 20px var(--text-color);
+}
+.badge-glow {
+    filter: drop-shadow(0 0 2px var(--text-color));
+}
+.font-sora {
+    font-family: 'Sora-Regular';
+}
+
+.font-chillax {
+    font-family: 'Chillax-Regular';
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
